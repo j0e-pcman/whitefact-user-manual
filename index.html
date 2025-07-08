@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WhiteFact User Manual - Business Enterprise</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="breadcrumb">
+          <span class="breadcrumb-item">← All docs</span>
+        </div>
+        <div class="top-bar">
+          <div class="doc-title">
+            <span class="doc-icon">📖</span>
+            <span>WhiteFact User Manual - Business Enterprise</span>
+          </div>
+          <div class="actions">
+            <span class="view-only">👁️ View only</span>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <div id="main-content">
+          <h1 class="page-title">WhiteFact User Manual - Business Enterprise</h1>
+
+          <div class="content-area">
+          <div class="subtitle">ไปยังส่วนของการทำงานหลัก คลิกส่วนที่ต้องการ</div>
+
+          <div class="modules-grid">
+            <div class="module-card">
+              <div class="module-icon">📊</div>
+              <h3 class="module-title">Data Catalog</h3>
+              <p class="module-description">การจัดการและจัดหมวดหมู่ข้อมูลแบบครบวงจรสำหรับองค์กร</p>
+              <button class="start-btn">เริ่ม</button>
+            </div>
+
+            <div class="module-card">
+              <div class="module-icon">📋</div>
+              <h3 class="module-title">Data Inventory</h3>
+              <p class="module-description">การตรวจสอบและทำรายการข้อมูลทั้งหมด และ Data Flow (RoPA)</p>
+              <button class="start-btn">เริ่ม</button>
+            </div>
+
+            <div class="module-card">
+              <div class="module-icon">👥</div>
+              <h3 class="module-title">Data Subject 360</h3>
+              <p class="module-description">การจัดการข้อมูลส่วนบุคคลแบบครอบคลุม มุมมอง 360 องศา</p>
+              <button class="start-btn">เริ่ม</button>
+            </div>
+
+            <div class="module-card">
+              <div class="module-icon">⚠️</div>
+              <h3 class="module-title">Risk Management</h3>
+              <p class="module-description">การประเมินและจัดการความเสี่ยงด้านข้อมูล พร้อมระบบรายงาน</p>
+              <button class="start-btn">เริ่ม</button>
+            </div>
+
+            <div class="module-card">
+              <div class="module-icon">📄</div>
+              <h3 class="module-title">DPA</h3>
+              <p class="module-description">การประเมินการคุ้มครองข้อมูลส่วนบุคคล และวิเคราะห์ผลกระทบ</p>
+              <button class="start-btn">เริ่ม</button>
+            </div>
+
+            <div class="module-card">
+              <div class="module-icon">🔒</div>
+              <h3 class="module-title">Privacy Policy</h3>
+              <p class="module-description">การจัดการนโยบายความเป็นส่วนตัว และระบบอัปเดตนโยบาย</p>
+              <button class="start-btn">เริ่ม</button>
+            </div>
+
+            <div class="module-card">
+              <div class="module-icon">✅</div>
+              <h3 class="module-title">Consent Management</h3>
+              <p class="module-description">การจัดการความยินยอมจากเจ้าของข้อมูล และติดตามการให้ความยินยอม</p>
+              <button class="start-btn">เริ่ม</button>
+            </div>
+
+            <div class="module-card">
+              <div class="module-icon">🍪</div>
+              <h3 class="module-title">Cookie Management</h3>
+              <p class="module-description">การจัดการคุกกี้และการติดตาม ระบบควบคุมตามกฎหมาย</p>
+              <button class="start-btn">เริ่ม</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="module-content" class="module-content-area" style="display: none;">
+          <div class="content-header">
+            <button id="back-btn" class="back-btn">← กลับไปหน้าหลัก</button>
+            <h2 id="module-title" class="content-title"></h2>
+          </div>
+
+          <div id="loading-indicator" class="loading-indicator">
+            <div class="spinner"></div>
+            <p>กำลังโหลดเนื้อหา...</p>
+          </div>
+
+          <div id="content-frame" class="content-frame"></div>
+        </div>
+      </main>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
